@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">av2</string>
+    <string name="titulo_form_cadastro">cadastre-se</string>
+    <string name="titulo_form_login">login do usuario</string>
+    <string name="hint_Email">Email</string>
+    <string name="hint_Senha">Senha</string>
+    <string name="texto_botao_cadastrar">Cadastrar</string>
+    <string name="texto_botao_entar">entar</string>
+    <string name="texto_tela_cadastro">não tem uma conta? cadastre-se aqui </string>
+    <string name="texto_tela_deslogar">deslogar </string>
+    <string name="senha"></string>
+
+
+</resources>

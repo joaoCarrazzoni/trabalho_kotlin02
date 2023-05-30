@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "16850022815",
+    "project_id": "tabalho--2",
+    "storage_bucket": "tabalho--2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16850022815:android:b4f870be67bfee7a918daa",
+        "android_client_info": {
+          "package_name": "com.stackmobile.av2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuBYm1vGDXLcA7NKh3HB6BbS3zHZLJoMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

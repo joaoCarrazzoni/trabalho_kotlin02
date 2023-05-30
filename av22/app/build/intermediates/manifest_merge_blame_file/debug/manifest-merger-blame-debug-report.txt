@@ -1,0 +1,241 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.stackmobile.av2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\d4ae66cad0877b1a8985a33fdcec8f71\transformed\firebase-firestore-24.6.0\AndroidManifest.xml:12:5-79
+15-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\d4ae66cad0877b1a8985a33fdcec8f71\transformed\firebase-firestore-24.6.0\AndroidManifest.xml:12:22-76
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\73eb2728fd8a1a368876db9657f606fa\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+18        android:name="com.stackmobile.av2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\73eb2728fd8a1a368876db9657f606fa\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\73eb2728fd8a1a368876db9657f606fa\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.stackmobile.av2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\73eb2728fd8a1a368876db9657f606fa\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\73eb2728fd8a1a368876db9657f606fa\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:7:5-32:19
+24        android:allowBackup="true"
+24-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:8:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\73eb2728fd8a1a368876db9657f606fa\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+26        android:dataExtractionRules="@xml/data_extraction_rules"
+26-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:9:9-65
+27        android:debuggable="true"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:10:9-54
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:11:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:12:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:13:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:14:9-35
+33        android:theme="@style/Theme.Av2" >
+33-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:15:9-41
+34        <activity
+34-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:17:9-19:40
+35            android:name="com.stackmobile.av2.view.telaprincipal.telaprincipal"
+35-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:18:13-61
+36            android:exported="false" />
+36-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:19:13-37
+37        <activity
+37-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:20:9-22:40
+38            android:name="com.stackmobile.av2.view.formcadastro.Formcadastro"
+38-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:21:13-59
+39            android:exported="false" />
+39-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:22:13-37
+40        <activity
+40-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:23:9-31:20
+41            android:name="com.stackmobile.av2.view.formcadastro.formlogin.formlogin"
+41-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:24:13-66
+42            android:exported="true" >
+42-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:25:13-36
+43            <intent-filter>
+43-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:26:13-30:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:27:17-69
+44-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:27:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:29:17-77
+46-->C:\Users\carrazzoni\AndroidStudioProjects\av22\app\src\main\AndroidManifest.xml:29:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <service
+50-->[com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\2429589552971f928b52327781b2c30d\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:8:9-14:19
+51            android:name="com.google.firebase.components.ComponentDiscoveryService"
+51-->[com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\2429589552971f928b52327781b2c30d\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:9:13-84
+52            android:directBootAware="true"
+52-->[com.google.firebase:firebase-common:20.3.2] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0c997fa1c71c9df45fc9f36ec5db780\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+53            android:exported="false" >
+53-->[com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\2429589552971f928b52327781b2c30d\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:10:13-37
+54            <meta-data
+54-->[com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\2429589552971f928b52327781b2c30d\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:11:13-13:85
+55                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+55-->[com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\2429589552971f928b52327781b2c30d\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:12:17-116
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\2429589552971f928b52327781b2c30d\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:13:17-82
+57            <meta-data
+57-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\carrazzoni\.gradle\caches\transforms-3\07116a494ba50e952cf998bd39704bc7\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+58                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+58-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\carrazzoni\.gradle\caches\transforms-3\07116a494ba50e952cf998bd39704bc7\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\carrazzoni\.gradle\caches\transforms-3\07116a494ba50e952cf998bd39704bc7\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
+60            <meta-data
+60-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\d4ae66cad0877b1a8985a33fdcec8f71\transformed\firebase-firestore-24.6.0\AndroidManifest.xml:19:13-21:85
+61                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+61-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\d4ae66cad0877b1a8985a33fdcec8f71\transformed\firebase-firestore-24.6.0\AndroidManifest.xml:20:17-111
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\d4ae66cad0877b1a8985a33fdcec8f71\transformed\firebase-firestore-24.6.0\AndroidManifest.xml:21:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+64                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+64-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+66        </service>
+67
+68        <activity
+68-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+69            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+69-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+70            android:excludeFromRecents="true"
+70-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+71            android:exported="true"
+71-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+72            android:launchMode="singleTask"
+72-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+73-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
+74            <intent-filter>
+74-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+75                <action android:name="android.intent.action.VIEW" />
+75-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+75-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+77-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+78-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+79
+80                <data
+80-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+81                    android:host="firebase.auth"
+81-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+82                    android:path="/"
+82-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+83                    android:scheme="genericidp" />
+83-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+87            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+87-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+88            android:excludeFromRecents="true"
+88-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+89            android:exported="true"
+89-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+90            android:launchMode="singleTask"
+90-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+91-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+92            <intent-filter>
+92-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+93                <action android:name="android.intent.action.VIEW" />
+93-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+93-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+94
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+95-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+96                <category android:name="android.intent.category.BROWSABLE" />
+96-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+96-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+97
+98                <data
+98-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+99                    android:host="firebase.auth"
+99-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+100                    android:path="/"
+100-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+101                    android:scheme="recaptcha" />
+101-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0fd7fdf2df07494b19e70c42a73492c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+102            </intent-filter>
+103        </activity>
+104        <activity
+104-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\carrazzoni\.gradle\caches\transforms-3\13d9043d5d09b0204c5f731b66b6a8a0\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+105            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+105-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\carrazzoni\.gradle\caches\transforms-3\13d9043d5d09b0204c5f731b66b6a8a0\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+106            android:exported="false"
+106-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\carrazzoni\.gradle\caches\transforms-3\13d9043d5d09b0204c5f731b66b6a8a0\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+107-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\carrazzoni\.gradle\caches\transforms-3\13d9043d5d09b0204c5f731b66b6a8a0\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+108
+109        <provider
+109-->[com.google.firebase:firebase-common:20.3.2] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0c997fa1c71c9df45fc9f36ec5db780\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+110            android:name="com.google.firebase.provider.FirebaseInitProvider"
+110-->[com.google.firebase:firebase-common:20.3.2] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0c997fa1c71c9df45fc9f36ec5db780\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+111            android:authorities="com.stackmobile.av2.firebaseinitprovider"
+111-->[com.google.firebase:firebase-common:20.3.2] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0c997fa1c71c9df45fc9f36ec5db780\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+112            android:directBootAware="true"
+112-->[com.google.firebase:firebase-common:20.3.2] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0c997fa1c71c9df45fc9f36ec5db780\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+113            android:exported="false"
+113-->[com.google.firebase:firebase-common:20.3.2] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0c997fa1c71c9df45fc9f36ec5db780\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+114            android:initOrder="100" />
+114-->[com.google.firebase:firebase-common:20.3.2] C:\Users\carrazzoni\.gradle\caches\transforms-3\e0c997fa1c71c9df45fc9f36ec5db780\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+115
+116        <meta-data
+116-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\3988961cb2c68d2484af1f1e0e63303e\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+117            android:name="com.google.android.gms.version"
+117-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\3988961cb2c68d2484af1f1e0e63303e\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+118            android:value="@integer/google_play_services_version" />
+118-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\3988961cb2c68d2484af1f1e0e63303e\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+119
+120        <provider
+120-->[androidx.emoji2:emoji2:1.2.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\9944033193d38687c2cba5b0fb5cf2b5\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+121            android:name="androidx.startup.InitializationProvider"
+121-->[androidx.emoji2:emoji2:1.2.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\9944033193d38687c2cba5b0fb5cf2b5\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+122            android:authorities="com.stackmobile.av2.androidx-startup"
+122-->[androidx.emoji2:emoji2:1.2.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\9944033193d38687c2cba5b0fb5cf2b5\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+123            android:exported="false" >
+123-->[androidx.emoji2:emoji2:1.2.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\9944033193d38687c2cba5b0fb5cf2b5\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+124            <meta-data
+124-->[androidx.emoji2:emoji2:1.2.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\9944033193d38687c2cba5b0fb5cf2b5\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+125                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+125-->[androidx.emoji2:emoji2:1.2.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\9944033193d38687c2cba5b0fb5cf2b5\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+126                android:value="androidx.startup" />
+126-->[androidx.emoji2:emoji2:1.2.0] C:\Users\carrazzoni\.gradle\caches\transforms-3\9944033193d38687c2cba5b0fb5cf2b5\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+127            <meta-data
+127-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\carrazzoni\.gradle\caches\transforms-3\3ac68a13bed0a880fd0eabaace325c83\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+128                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+128-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\carrazzoni\.gradle\caches\transforms-3\3ac68a13bed0a880fd0eabaace325c83\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+129                android:value="androidx.startup" />
+129-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\carrazzoni\.gradle\caches\transforms-3\3ac68a13bed0a880fd0eabaace325c83\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+130        </provider>
+131    </application>
+132
+133</manifest>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    tools:context=".view.telaprincipal.telap"
+
+
+
+    <Buttom
+        android:id="@+id/bt_deslogar"
+        android:layout_width="wra_conter"
+        android:layout_height="wra_conter"
+        android:text="@string/texto_botao_deslogar"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@color/light_black"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+<Buttom
+android:id="@+id/bt_GravarDados"
+android:layout_width="wra_conter"
+android:layout_height="wra_conter"
+android:text="gravar"
+android:padding="15dp"
+android:textSize="18sp"
+android:textColor="@color/white"
+android:textAllCaps="false"
+android:background="@color/light_black"
+android:layout_gravity="center"
+android:layout_marginTop="20dp"
+
+</LinearLayout>
+
+
+
+
+
